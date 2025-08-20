@@ -1,0 +1,72 @@
+/* estilos.css - Estilo femenino moderno y elegante */
+
+/* Fuente delicada desde Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Quicksand', sans-serif;
+    background: linear-gradient(to right, #ffeefb, #f3e5f5); /* fondo rosado-lavanda */
+    color: #5e4b56;
+    padding: 20px;
+}
+
+/* Título principal */
+h1 {
+    text-align: center;
+    font-size: 2.8em;
+    color: #d81b60;
+    margin-bottom: 40px;
+    text-shadow: 1px 1px 3px #f8bbd0;
+}
+
+/* Secciones como tarjetas suaves */
+section {
+    background-color: #ffffffee;
+    padding: 25px;
+    margin: 30px auto;
+    max-width: 900px;
+    border-radius: 15px;
+    box-shadow: 0 6px 12px rgba(216, 27, 96, 0.2);
+}
+
+/* Títulos de sección */
+h2 {
+    color: #ab47bc;
+    border-left: 6px solid #f48fb1;
+    padding-left: 12px;
+    font-size: 1.7em;
+    margin-bottom: 15px;
+}
+
+/* Listas */
+ul, ol {
+    margin-left: 30px;
+    font-size: 1.1em;
+    color: #6a1b9a;
+}
+
+/* Enlaces como botones bonitos */
+a {
+    display: inline-block;
+    background-color: #f8bbd0;
+    color: #880e4f;
+    padding: 10px 16px;
+    border-radius: 10px;
+    text-decoration: none;
+    font-weight: 600;
+    margin: 8px 0;
+    transition: all 0.3s ease;
+}
+
+a:hover {
+    background-color: #f48fb1;
+    color: white;
+    transform: scale(1.05);
+    box-shadow: 0 4px 10px rgba(136, 14, 79, 0.3);
+}
